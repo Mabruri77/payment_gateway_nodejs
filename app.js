@@ -23,6 +23,7 @@ app.use(express.json())
 
 const db = admin.firestore()
 
+//create payment
 app.post(
 	'/charge',
 	asyncHandler(async (req, res) => {
@@ -42,6 +43,8 @@ app.post(
 		res.json(response)
 	})
 )
+
+//update status payment
 app.post(
 	'/update/:orderId',
 	asyncHandler(async (req, res) => {
