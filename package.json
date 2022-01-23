@@ -1,0 +1,17 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "payment backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ruri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^10.0.2",
+    "midtrans-client": "^1.3.0"
+  }
+}
