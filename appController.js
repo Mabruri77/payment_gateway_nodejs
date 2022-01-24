@@ -8,8 +8,8 @@ admin.initializeApp({
 
 let coreApi = new midtransClient.CoreApi({
 	isProduction: false,
-	serverKey: 'SB-Mid-server-maDlGCRLPmr00nWiMS6m_2Sz',
-	clientKey: 'SB-Mid-client-Gth9Q6BEKX4QSWih'
+	serverKey: 'your server key',
+	clientKey: 'your client key'
 })
 const db = admin.firestore()
 exports.createPayment = asyncHandler(async (req, res) => {
